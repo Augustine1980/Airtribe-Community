@@ -35,9 +35,10 @@ npm init -y
 npm install express body-parser
 
 Usage
-create  index.js file and add code to start server and place all the code of the enpoints
-in index.js and execute index.js
-node src\index.js\   //in VS Code Terminal
+
+create  index.js file and add code to start server and place all the code of the enpoints in index.js and execute index.js
+
+node src\index.js
 
 API Endpoints and Testing it Using POSTMAN and CURL is also Given
 
