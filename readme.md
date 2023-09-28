@@ -1,6 +1,6 @@
 # Task Manager API
 
-![Project Preview](project-preview.png)
+![Project Preview]
 
 ## Overview
 
@@ -57,4 +57,4 @@ GET /tasks/priority/:level: Filter tasks by priority level (e.g., high, medium, 
 Clone the repository to your local machine:
 
    ```bash
-   git clone[ https://github.com/yourusername/task-manager-api.git](https://github.com/Augustine1980/task-manager-api)
+   https://github.com/Augustine1980/task-manager-api
