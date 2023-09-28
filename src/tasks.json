@@ -1,0 +1,39 @@
+{
+    "tasks":[
+    {
+      "taskId": 1,
+      "title": "Buy groceries",
+      "description": "Buy milk, bread, and fruits",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "taskId": 2,
+      "title": "Go to the gym",
+      "description": "Workout for 1 hour",
+      "completed": true,
+      "priority": "medium"
+    },
+    {
+      "taskId": 3,
+      "title": "Read a book",
+      "description": "Read 20 pages of a novel",
+      "completed": false,
+      "priority": "low"
+    },
+    {
+      "taskId": 4,
+      "title": "Pay bills",
+      "description": "Pay electricity and internet bills",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "taskId": 5,
+      "title": "Clean the house",
+      "description": "Vacuum and dust all rooms",
+      "completed": true,
+      "priority": "medium"
+    }
+  ]
+}
