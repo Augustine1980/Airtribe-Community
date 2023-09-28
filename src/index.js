@@ -32,9 +32,9 @@
           res.json(task);
         });
 
-        app.post('/tasks', (req, res, next) => {
+        app.post('/tasks', (req, res) => {
         // Input validation
-        validate.validateNewTask(req ,res, next, tasks);
+        validateNewTask(req ,res);
         const newTask = {
           "id": tasks.length + 1,
           "title": req.body.title,
@@ -50,7 +50,7 @@
       app.put('/tasks/:id', (req, res) => {
 
         const task = tasks.find(t => t.id === parseInt(req.params.id));
-        validate.validateUpdateTask(task);
+        validateUpdateTask(task);
 
 
         // Update task
